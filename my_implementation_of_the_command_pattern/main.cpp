@@ -52,9 +52,6 @@ public:
 
     void setCommand(Command* newCom) {
         if (com != newCom) {
-            if (com != nullptr) {
-                delete com;
-            }
             com = newCom;
         }
     }
